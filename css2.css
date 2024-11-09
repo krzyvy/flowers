@@ -992,3 +992,9 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .flowers{
+    transform: translateY(-30vh);
+  }
+}
