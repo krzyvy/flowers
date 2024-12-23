@@ -11,7 +11,7 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById("countdown").innerHTML = "<div class='title'>Tyle zemną wyrzymałaś</div>"+ days + " dni " + hours + " godzin " + minutes + " minut I " + seconds + " sekund. ";
+    document.getElementById("countdown").innerHTML = "<div class='title'>Tyle zemną wytrzymałaś:</div>"+ days + " dni " + hours + " godzin " + minutes + " minut I " + seconds + " sekund. <div>GRATULACJE!</div>";
 }, 1000);
 
 const one = document.querySelector('#one');

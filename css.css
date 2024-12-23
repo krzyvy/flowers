@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 .displaynone{
     display: none !important;
 }
@@ -7,11 +9,15 @@
     transform: translateY(-60vh);
     color: #fff;
     font-size: 48px;
-    font-weight: 600;
-    font-family:'Courier New', Courier, monospace
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .title{
-    font-weight: 400;
     transform: translateX(-10rem);
-    font-family:'Courier New', Courier, monospace
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
