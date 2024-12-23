@@ -5,8 +5,6 @@
 }
 
 #countdown{
-    position: absolute;
-    transform: translateY(-60vh);
     color: #fff;
     font-size: 48px;
     font-family: "Sour Gummy", serif;
@@ -15,9 +13,17 @@
     font-style: normal;
 }
 .title{
-    transform: translateX(-10rem);
     font-family: "Sour Gummy", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
+.timerbox{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(5vh);
+}
+
