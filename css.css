@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 .displaynone{
-    display: none !important;
+    opacity: 0 !important;
+    transition: all ease-in 1s;
 }
 
 #countdown{
