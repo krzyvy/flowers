@@ -1,0 +1,17 @@
+.displaynone{
+    display: none !important;
+}
+
+#countdown{
+    position: absolute;
+    transform: translateY(-60vh);
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace
+}
+.title{
+    font-weight: 400;
+    transform: translateX(-10rem);
+    font-family:'Courier New', Courier, monospace
+}

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
   <link rel="stylesheet" href="css2.css">
   <title>Flowers</title>
   <!-- Google tag (gtag.js) -->
@@ -19,7 +20,10 @@
 <body>
   <main>
     <div class="night"></div>
-    <div class="flowers">
+    <div id="dwo" class="timerbox displaynone">
+      <div id="countdown"></div>
+    </div>
+    <div id="one" class="flowers">
       <div class="flower flower--1">
         <div class="flower__leafs flower__leafs--1">
           <div class="flower__leaf flower__leaf--1"></div>
@@ -316,6 +320,7 @@
       </div>
     </div>
   </main>
+  <script src="clock.js"></script>
 </body>
 
 </html>
