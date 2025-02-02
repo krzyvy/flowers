@@ -17,6 +17,7 @@ body{
 .title{
     font-weight: 800;
     font-size: 48px !important;
+    padding: 0 0 10px 0;
 }
 .timerbox{
     width: 100%;
@@ -29,6 +30,10 @@ body{
 .item{
     font-style: italic;
     font-weight: 500;
-    padding: 0 0 10px 0;
+    padding: 0 10px 10px 0;
     color: #c2c0c0;
+}
+
+.first{
+    padding: 0 0 40px 0;
 }
