@@ -59,9 +59,9 @@ function sleep (time) {
     return new Promise((resolve) => setTimeout(resolve, time));
 }
 
-sleep(1000).then(() => {
+sleep(7000).then(() => {
     one.classList.add('displaynone');
 });
-sleep(1500).then(() => {
+sleep(7500).then(() => {
     dwo.classList.remove('displaynone');
 });
