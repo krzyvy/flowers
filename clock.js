@@ -40,7 +40,7 @@ function time(){
     var seconds = Math.floor((distance / 1000));
     var weaks = Math.floor(((((distance / 1000) / 60) / 60)/24)/7);
 
-    var month = Math.floor(monthnowDate + 2);
+    var month = Math.floor(monthnowDate + 3);
     //var day = Math.floor((distance % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
     var hour = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minute = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
