@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.heart {
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    transform: rotate(-45deg);
+    animation: beat 1s infinite;
+    margin: 300px 0 0 0;
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -100px;
+    left: 0;
+}
+
+.heart::after {
+    left: 100px;
+    top: 0;
+}
+
+@keyframes beat {
+    0%, 100% {
+        transform: scale(1) rotate(-45deg);
+    }
+    50% {
+        transform: scale(1.2) rotate(-45deg);
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.container .heart {
+    margin: 175px 0;
+}
+.text{
+    color: #eeeeee;
+    font-size: 34px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+#countdown{
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
